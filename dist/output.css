@@ -575,10 +575,6 @@ video {
   display: flex;
 }
 
-.h-card {
-  height: 543px;
-}
-
 .h-eth {
   height: 278px;
 }
@@ -661,10 +657,6 @@ video {
 .bg-main {
   --tw-bg-opacity: 1;
   background-color: rgb(13 25 44 / var(--tw-bg-opacity));
-}
-
-.bg-\[url\(\'\.\/images\/image-equilibrium\.jpg\'\)\] {
-  background-image: url('./images/image-equilibrium.jpg');
 }
 
 .bg-\[url\(\'nft-preview-card-componentimages\/image-equilibrium\.jpg\'\)\] {
