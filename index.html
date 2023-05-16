@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon-32x32.png"
+    />
+    <link href="./output.css" rel="stylesheet" />
+    <title>Frontend Mentor | NFT peview card component</title>
+  </head>
+  <body
+    class="bg-main flex justify-center items-center h-screen relative font-outfit"
+  >
+    <div class="bg-card text-text w-card  p-6 rounded-card lg:w-card-dsk lg:h-card-dsk">
+      <div
+        class="w-eth h-eth bg-[url('./images/image-equilibrium.jpg')] bg-cover hover:bg-icon/50 hover:bg-blend-overlay rounded-img lg:w-eth-dsk  lg:h-eth-dsk"
+        aria-label="Ethereum"
+      ></div>
+      <div class="text-white text-title mt-6 font-semibold hover:text-icon">
+        Equilibrium #3429
+      </div>
+      <div class="mt-3 text-description font-light lg:mt-4">
+        Our Equilibrium collection promotes balance and calm.
+      </div>
+      <div class="flex justify-between items-center mt-4 lg:mt-6">
+        <div class="font-semibold text-icon flex justify-between items-center lg:text-hero-dsk">
+          <img
+            src="./images/icon-ethereum.svg"
+            alt="Ethereum icon"
+            class="inline mr-eth"
+          />
+          0.041 ETH
+        </div>
+        <div class="flex justify-between items-center">
+          <img
+            src="./images/icon-clock.svg"
+            alt="Clock"
+            class="inline mr-clk"
+          />3 days left
+        </div>
+      </div>
+      <hr class="h-px my-6 bg-line border-0" />
+
+      <div>
+        <img
+          src="./images/image-avatar.png"
+          alt="Hero"
+          class="w-hero h-hero inline border border-white rounded-full mr-4 text-hero lg:text-hero-dsk"
+        />Creation of <span class="text-white">Jules Wyvern</span>
+      </div>
+    </div>
+    <div class="attribution absolute bottom-0 left-0 w-screen text-center">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">John Carlo Sacramento</a>.
+    </div>
+  </body>
+</html>
