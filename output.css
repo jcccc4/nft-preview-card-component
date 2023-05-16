@@ -667,6 +667,10 @@ video {
   background-image: url('./images/image-equilibrium.jpg');
 }
 
+.bg-\[url\(\'nft-preview-card-componentimages\/image-equilibrium\.jpg\'\)\] {
+  background-image: url('nft-preview-card-componentimages/image-equilibrium.jpg');
+}
+
 .bg-cover {
   background-size: cover;
 }
